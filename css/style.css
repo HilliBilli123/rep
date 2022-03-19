@@ -1,9 +1,17 @@
 @import url("clear.css");
 @import url("common.css");
 
+body {
+	color: #182D4C;
+}
+
 /* Header + NavBar */
 .header__main {
 	background-color: #182D4C;
+}
+
+.header__body {
+	padding: 0 20px;
 }
 
 .header__body__menu {
@@ -34,4 +42,41 @@
 	justify-content: center;
 	width: 400px;
 	align-items: center;
+}
+
+/* Header + NavBar end */
+
+/* About Page */
+.main__about {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0px;
+}
+
+.main__about__photo {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__about__text {
+	width: 50%;
+}
+
+.about {
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.about__title {
+	font-size: 43px;
+	font-weight: 700;
+}
+
+.main__about__text p {
+	font-size: 32px;
+	line-height: 2;
+	font-weight: 700;
 }
