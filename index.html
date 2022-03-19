@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Document</title>
 </head>
@@ -30,7 +31,39 @@
 		</div>
 	</header>
 	<section class="main">
-		<div class="main__baha"></div>
+		<div class="slider">
+			<div class="image-slider swiper">
+				<div class="image-slider__wrapper swiper-wrapper">
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image">
+							<img src="response/slider/slider1.jpg" alt="no Image">
+						</div>
+					</div>
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image">
+							<img src="response/slider/slider2.jpg" alt="no Image">
+						</div>
+					</div>
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image">
+							<img src="response/slider/slider3.jpg" alt="no Image">
+						</div>
+					</div>
+					<div class="image-slider__slide swiper-slide">
+						<div class="image-slider__image">
+							<img src="response/slider/slider4.jpg" alt="no Image">
+						</div>
+					</div>
+				</div>
+				<!-- Стрелки -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+				<!-- Пагинация -->
+				<div class="swiper-pagination"></div>
+				<!-- Скрол -->
+				<!-- <div class="swiper-scrollbar"></div> -->
+			</div>
+		</div>
 		<div class="about">
 			<div class="main__about _contein">
 				<div class="main__about__photo ">
@@ -54,7 +87,12 @@
 				</div>
 			</div>
 		</div>
+		<div class="card">
+
+		</div>
 	</section>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
