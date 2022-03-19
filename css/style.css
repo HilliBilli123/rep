@@ -2,11 +2,14 @@
 @import url("common.css");
 
 /* Header + NavBar */
+.header__main {
+	background-color: #182D4C;
+}
+
 .header__body__menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #182D4C;
 }
 
 .menu__logo {
