@@ -40,4 +40,5 @@ new Swiper('.image-slider',{
 
     // Скорость переключения 
     speed: 800,
+    
 });
