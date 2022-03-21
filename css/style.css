@@ -3,7 +3,7 @@
 @import url("slider.css");
 
 body {
-	color: #182D4C;
+	color: white;
 }
 
 /* Header + NavBar */
@@ -14,6 +14,7 @@ body {
 .header__body {
 	padding: 0 20px;
 }
+
 
 .header__body__menu {
 	display: flex;
@@ -54,33 +55,66 @@ body {
 
 .menu__lang img {
 	width: 100%;
-	/* height: 40px; */
+	/* height: 100%; */
+	object-fit: cover;
 }
 
 /* Header + NavBar end */
 
 /* About Page */
+.about {
+	background-color: #182D4C;
+}
+
 .main__about {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 40px 0px;
+	padding: 10px 0px;
 }
 
 .photo__contein {
-	height: 300px;
+	max-width: 450px;
+	padding: 40px;
+	/* height: 400px; */
+	position: relative;
+	overflow: hidden;
+}
+
+.photo__text__contein {
+	/* display: none; */
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	height: 100%;
+	transform: translateY(100%);
+	width: 100%;
+	/* background-color: #091629; */
+	background: linear-gradient(180deg, rgba(9, 22, 41, 1) 0%, rgba(24, 45, 76, 1) 100%);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+
+.photo__contein:hover .photo__text__contein {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
 }
 
 .photo__contein img {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
+	filter: invert(1);
 }
 
 .main__about__photo {
-	width: 50%;
 	display: flex;
-	/* justify-content: center; */
+	justify-content: space-around;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .main__about__text {
@@ -106,6 +140,11 @@ body {
 /* About END */
 
 /* Specification */
+.specification {
+	background-color: white;
+	color: #182D4C;
+}
+
 .specification__body {
 	display: flex;
 	flex-wrap: wrap;
