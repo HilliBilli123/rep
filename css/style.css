@@ -145,19 +145,21 @@ body {
 	color: #182D4C;
 }
 
-.specification__body {
+/* .specification__body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-}
+} */
 
 .specification__card {
-	max-width: 350px;
+	max-width: 400px;
+	height: 500px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-right: 50px;
 }
 
 .card__logo {
