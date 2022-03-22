@@ -27,7 +27,7 @@ new Swiper('.image-slider',{
     grabCursor: true,
     // Бесконечный слайд
     loop: true,
-
+    slidesPerView: 1,
     // Автопрокрутка 
     autoplay: {
         // Пауза между прокруткой
@@ -69,13 +69,15 @@ new Swiper('.specification__slider',{
     // Курсор перетаскиване
     grabCursor: true,
     // Бесконечный слайд
+    slidesPerView: 2,
     loop: true,
-    slidesPerView: 'auto',
+    autoHeight:true,
+    
 
     // Автопрокрутка 
     autoplay: {
         // Пауза между прокруткой
-        delay: 5000, // 5 sec
+        delay: 3000, // 5 sec
         // Закончить на последнем слайде 
         stopOnLastSlide: false, 
         // Отключить после ручного переключения

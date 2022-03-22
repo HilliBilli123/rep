@@ -143,6 +143,7 @@ body {
 .specification {
 	background-color: white;
 	color: #182D4C;
+	margin: 120px 0px;
 }
 
 /* .specification__body {
@@ -152,14 +153,15 @@ body {
 } */
 
 .specification__card {
-	max-width: 400px;
-	height: 500px;
+	width: 400px;
+	height: 700px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-right: 50px;
+	/* margin: 0px 30px; */
+	padding: 0px 40px;
 }
 
 .card__logo {
@@ -193,4 +195,7 @@ body {
 	font-size: 18px;
 	font-weight: 700;
 	padding-bottom: 20px;
+}
+.specification__slider__contein{
+	overflow: hidden;
 }
