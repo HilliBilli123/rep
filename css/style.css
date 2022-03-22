@@ -7,10 +7,19 @@ body {
 }
 
 /* Header + NavBar */
+
 .header__main {
 	background-color: #182D4C;
+	position: fixed;
+	z-index: 6;
+	width: 100%;
 }
+.header__main__plus{
 
+	
+	transition: all 0.5s;
+	background-color: #182d4c91;
+}
 .header__body {
 	padding: 0 20px;
 }
@@ -24,9 +33,11 @@ body {
 
 .menu__logo {
 	max-width: 120px;
+	color: white;
 	padding: 0px 21px;
-	background-color: #FD7C05;
+	/* background-color: white; */
 	object-fit: cover;
+	filter: brightness(0) invert(1);
 }
 
 .menu__logo img {
