@@ -1,0 +1,69 @@
+._footer-title {
+    font-size: 24px;
+    line-height: 29 / 24 * 100%;
+    color: white;
+    font-weight: 700;
+
+}
+
+.footer {
+    background-color: #182D4C;
+}
+
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* @media (min-width: 776px) {
+    .footer__contacts {
+        display: flex;
+    }
+} */
+
+.footer__contacts {
+
+}
+/*Общи заголовки подвала*/
+._footer-title {
+    margin: 0px 0px 16px/24px * 1em 0px;
+}
+
+/*Контакты*/
+.footer__contacts__list li:not(:last-child){
+    margin: 0px 0px 15px 0px;
+}
+
+.footer__contacts__link {
+    color: #fff;
+    transition: color 0.3s ease 0s;
+    line-height: 120%;
+}
+/*Социальные сети*/
+.footer__socialMedia__list li:not(:last-child){
+    margin: 0px 0px 15px 0px;
+}
+
+.footer__socialMedia__link {
+    color: #fff;
+    transition: color 0.3s ease 0s;
+    line-height: 120%;
+}
+
+.footer__logo {
+    max-width: 170px;
+    background-color: #fff;
+	object-fit: cover;
+}
+
+.footer__logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
