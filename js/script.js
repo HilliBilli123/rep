@@ -27,7 +27,7 @@ new Swiper('.image-slider',{
     grabCursor: true,
     // Бесконечный слайд
     loop: true,
-    slidesPerView: 1,
+    // slidesPerView: 1,
     // Автопрокрутка 
     autoplay: {
         // Пауза между прокруткой
