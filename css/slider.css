@@ -55,13 +55,18 @@
 
 
 .image-slider__contain {
-    max-width: 700px;
+    max-width: 850px;
     margin: 200px 0px 0px 150px ;
+    /* border-radius: 10px; */
     position: relative;
     z-index: 2;
-    padding: 10px;
-    background-color: #b29c77c7;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: rgba(255, 255, 255, 0.75);
     text-align: center;
+    /* box-shadow: 1px 1px 5px black; */
 }
 
 @media (max-width: 992px) {
@@ -92,8 +97,9 @@
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 35px;
     color: #182D4C;
+    font-size: 20px;
 
 }
 
@@ -103,6 +109,7 @@
     font-weight: 700;
     line-height: 70px;
     color: #182D4C;
+    font-size: 48px;
 }
 .fontSize36 {
     font-size: 36px;
@@ -118,6 +125,7 @@
 
 .slider-contain__button {
     border-radius: 10px;
+    background-color: #182d4cce;
     min-height: 48px;
     display: flex;
     justify-content: center;
@@ -126,10 +134,15 @@
     align-items: center;
     line-height: 150%;
     border: 2px solid #182D4C;
-    color: #182D4C;
+    color: #fff;
     padding: 5px 54px;
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
+    transition: all 0.5s;
+}
+
+.slider-contain__button:hover {
+    background-color: #fff;
     color: #182D4C;
 }

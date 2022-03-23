@@ -29,14 +29,14 @@ new Swiper('.image-slider',{
     loop: true,
     slidesPerView: 1,
     // Автопрокрутка 
-    autoplay: {
-        // Пауза между прокруткой
-        delay: 5000, // 5 sec
-        // Закончить на последнем слайде 
-        stopOnLastSlide: false, 
-        // Отключить после ручного переключения
-        disableOnInteraction: false,
-    },
+    // autoplay: {
+    //     // Пауза между прокруткой
+    //     delay: 5000, // 5 sec
+    //     // Закончить на последнем слайде 
+    //     stopOnLastSlide: false, 
+    //     // Отключить после ручного переключения
+    //     disableOnInteraction: false,
+    // },
 
     // Скорость переключения 
     speed: 800,
