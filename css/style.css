@@ -120,12 +120,12 @@ body {
 }
 
 .text__contein__title {
-	font-size: 2.5em;
+	font-size: 32pt;
 	font-weight: 700;
 }
 
 .text__contein__text {
-	font-size: 1.5em;
+	font-size: 24pt;
 }
 
 .photo__contein:hover .photo__text__contein {
@@ -230,4 +230,19 @@ body {
 
 .specification__slider__contein {
 	overflow: hidden;
+}
+
+
+@media (max-width: 1024px) {
+	.photo__contein{
+		max-width: 350px;
+	}
+}
+@media (max-width: 540px) {
+	.photo__contein{
+		max-width: 200px;
+	}
+	.about {
+		padding: 20px 0px;
+	}
 }
