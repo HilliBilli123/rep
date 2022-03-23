@@ -174,7 +174,7 @@ body {
 .specification {
 	background-color: white;
 	color: #182D4C;
-	margin: 120px 0px;
+	padding: 120px 0px;
 }
 
 /* .specification__body {
@@ -191,18 +191,12 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/* margin: 0px 30px; */
 	padding: 0px 60px;
 }
 
 .card__logo {
-	height: 200px;
-	padding-bottom: 20px;
-}
-
-.card__logo {
-	height: 200px;
-	width: 300px;
+	max-height: 200px;
+	max-width: 300px;
 	text-align: center;
 	padding: 20px;
 	display: flex;
@@ -237,6 +231,7 @@ body {
 	/* About */
 	.photo__contein{
 		max-width: 350px;
+		padding: 30px;
 	}
 	.text__contein__title {
 		font-size: 24pt;
@@ -247,11 +242,27 @@ body {
 		font-size: 18pt;
 	}
 	/* About end */
+	/* Specification */
+	.card__title {
+		font-size: 16px;
+		font-weight: 700;
+	}
+	
+	.card__text {
+		font-size: 14px;
+		font-weight: 700;
+		padding-bottom: 20px;
+	}
+	.specification{
+		padding: 60px 0;
+	}
+	/* Specification end */
 }
 @media (max-width: 540px) {
 	/* About */
 	.photo__contein{
 		max-width: 220px;
+		padding: 20px;
 	}
 	.about {
 		padding: 20px 0px;
