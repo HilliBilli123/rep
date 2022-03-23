@@ -5,7 +5,7 @@
 @import url("footer.css");
 
 body {
-	color: white;
+	color: black;
 }
 
 /* Header + NavBar */
@@ -18,8 +18,6 @@ body {
 }
 
 .header__main__plus {
-
-
 	transition: all 0.5s;
 	background-color: #182d4c91;
 }
@@ -33,20 +31,24 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 70px;
 }
 
 .menu__logo {
-	max-width: 120px;
+	max-width: 100px;
+	text-align: center;
+	height: 100%;
 	color: white;
-	padding: 0px 21px;
+	padding: 5px;
 	background-color: white;
-	object-fit: cover;
+	/* object-fit: cover; */
 	/* filter: brightness(0) invert(1); */
 }
 
 .menu__logo img {
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 }
 
 .menu__link a {
