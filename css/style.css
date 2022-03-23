@@ -281,4 +281,7 @@ body {
 	.card__text{
 		display: none;
 	}
+	.card__logo{
+		padding: 5px;
+	}
 }
