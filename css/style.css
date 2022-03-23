@@ -234,12 +234,12 @@ body {
 		padding: 30px;
 	}
 	.text__contein__title {
-		font-size: 24pt;
+		font-size: 24px;
 		font-weight: 700;
 	}
 	
 	.text__contein__text {
-		font-size: 18pt;
+		font-size: 18px;
 	}
 	/* About end */
 	/* Specification */
@@ -262,19 +262,19 @@ body {
 @media (max-width: 720px) {
 	/* About */
 	.photo__contein{
-		max-width: 220px;
+		max-width: 150px;
 		padding: 20px;
 	}
 	.about {
 		padding: 20px 0px;
 	}
 	.text__contein__title {
-		font-size: 14pt;
+		font-size: 14px;
 		font-weight: 700;
 	}
 	
 	.text__contein__text {
-		font-size: 12pt;
+		font-size: 12px;
 	}
 	/* About */
 	/* Specification */
