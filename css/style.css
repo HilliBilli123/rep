@@ -256,6 +256,7 @@ body {
 	.specification{
 		padding: 60px 0;
 	}
+
 	/* Specification end */
 }
 @media (max-width: 540px) {
@@ -276,4 +277,8 @@ body {
 		font-size: 12pt;
 	}
 	/* About */
+	/* Specification */
+	.card__text{
+		display: none;
+	}
 }
