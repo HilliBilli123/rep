@@ -259,7 +259,7 @@ body {
 
 	/* Specification end */
 }
-@media (max-width: 540px) {
+@media (max-width: 720px) {
 	/* About */
 	.photo__contein{
 		max-width: 220px;
