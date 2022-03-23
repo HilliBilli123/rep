@@ -234,15 +234,35 @@ body {
 
 
 @media (max-width: 1024px) {
+	/* About */
 	.photo__contein{
 		max-width: 350px;
 	}
+	.text__contein__title {
+		font-size: 24pt;
+		font-weight: 700;
+	}
+	
+	.text__contein__text {
+		font-size: 18pt;
+	}
+	/* About end */
 }
 @media (max-width: 540px) {
+	/* About */
 	.photo__contein{
-		max-width: 200px;
+		max-width: 220px;
 	}
 	.about {
 		padding: 20px 0px;
 	}
+	.text__contein__title {
+		font-size: 14pt;
+		font-weight: 700;
+	}
+	
+	.text__contein__text {
+		font-size: 12pt;
+	}
+	/* About */
 }
