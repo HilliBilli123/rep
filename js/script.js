@@ -27,7 +27,7 @@ new Swiper('.image-slider',{
     grabCursor: true,
     // Бесконечный слайд
     loop: true,
-    slidesPerView: 1,
+    // slidesPerView: 1,
     // Автопрокрутка 
     // autoplay: {
     //     // Пауза между прокруткой
@@ -88,6 +88,16 @@ new Swiper('.specification__slider',{
     speed: 800,
     
 });
+const header = document.querySelector(".header__main")
+document.addEventListener("wheel", () =>{
+    console.log(window.scrollY)
+    if (window.scrollY > 80) {
+        header.classList.add("header__main__plus")
+    } else {
+        header.classList.remove("header__main__plus")
+    }
+});
+
 
 // Якоря по странице 
 const anchors = document.querySelectorAll('a[href*="#"]')

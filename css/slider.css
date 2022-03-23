@@ -13,14 +13,10 @@
 }
 
 .image-slider {
-    /* flex: 1 1 auto; */
-    min-width: 0;
-    height: 90vh;
-	/* position: relative; */
-}
-.swiper {
-}
-.image-slider__wrapper {
+	/* padding: 30px 0 70px 0; */
+	/* overflow: hidden; */
+	position: relative;
+	min-height: 100vh;
 }
 
 .image-slider__slide {
